@@ -176,7 +176,7 @@ _TIPS_FAQ = {
 > The filter may have reduced the dataset to zero sequences. Check the sidebar *Active Sequences* count. Reset filters in Sequence Refinery if needed.
 
 **Q: I uploaded the same file twice — why does it still show two entries?**
-> Vir-Seq-Sift detects duplicate filenames and skips re-parsing, but the entry persists in the loaded files list until you remove it. Click *Remove* next to the duplicate in Workspace.
+> VirSift detects duplicate filenames and skips re-parsing, but the entry persists in the loaded files list until you remove it. Click *Remove* next to the duplicate in Workspace.
 
 **Q: How do I export per-subtype FASTA files?**
 > In the Export page, open *Split & Export*, select **Subtype** as the split field, click *Preview Groups*, then download the ZIP of all sub-FASTAs.
@@ -256,7 +256,7 @@ _TIPS_FAQ = {
 # ─────────────────────────────────────────────────────────────────────────────
 _HEADER_FORMAT = {
     "en": """\
-Vir-Seq-Sift supports **GISAID pipe-delimited** headers for three virus groups.
+VirSift supports **GISAID pipe-delimited** headers for three virus groups.
 Each group uses a different field count and ordering — choose the one that matches
 your GISAID download.
 
@@ -729,7 +729,7 @@ with tab_uc:
     # Download documentation as Markdown (combined guide + feature reference)
     st.divider()
     _doc_bundle = (
-        f"# Vir-Seq-Sift v2.1 — {T('docs_page_header')}\n\n"
+        f"# VirSift v1.0 — {T('docs_page_header')}\n\n"
         f"## {T('docs_tab_quickstart')}\n\n{_QUICKSTART.get(_lang, _QUICKSTART['en'])}\n\n"
         f"## {T('docs_tab_features')}\n\n{_FEATURE_TABLE.get(_lang, _FEATURE_TABLE['en'])}\n\n"
         f"## {T('docs_tab_tips')}\n\n{_TIPS_FAQ.get(_lang, _TIPS_FAQ['en'])}\n\n"
