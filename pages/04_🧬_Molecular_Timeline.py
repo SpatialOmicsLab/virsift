@@ -1446,7 +1446,7 @@ with st.expander(f"🔬 {T('timeline_preview_header')}", expanded=True):
 
         with _ex3:
             _snap = {
-                "tool":               "Vir-Seq-Sift v2.1 — Molecular Timeline Tracker",
+                "tool":               "VirSift v1.0.0 — Molecular Timeline Tracker",
                 "exported":           datetime.now().isoformat(),
                 "representative_logic": _rs.get("rep_opt", ""),
                 "min_cluster_size":   _rs.get("min_cluster", 3),
