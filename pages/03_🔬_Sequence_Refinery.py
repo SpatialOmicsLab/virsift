@@ -604,7 +604,7 @@ if not filtered_df.empty:
     filter_logs = [a for a in action_logs if a.get("action") not in ("parse", "activate")]
     if filter_logs:
         methodology = {
-            "tool":    "Vir-Seq-Sift v2.1",
+            "tool":    "VirSift v1.0.0",
             "filters": filter_logs,
             "result":  {
                 "sequences":        len(filtered_df),
