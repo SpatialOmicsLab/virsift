@@ -1,9 +1,9 @@
 {
-  "_comment": "VirSift v2.1 — 简体中文翻译（存根版本 — 缺失键值将回退到英语）",
+  "_comment": "VirSift v1.0 — 简体中文翻译（存根版本 — 缺失键值将回退到英语）",
   "_note": "部分翻译，涵盖最常用的界面元素。缺失键值显示英语。",
   "app_title": "VirSift",
   "app_subtitle": "病毒基因组智能监测",
-  "app_version": "v2.1",
+  "app_version": "v1.0",
   "sidebar_language": "语言",
   "sidebar_dataset_status": "数据集状态",
   "sidebar_active_seqs": "活跃序列",
