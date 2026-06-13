@@ -96,7 +96,7 @@ with q2:
 with q3:
     action_logs = st.session_state.get("action_logs", [])
     methodology = {
-        "tool":       "Vir-Seq-Sift v2.1",
+        "tool":       "VirSift v1.0",
         "prefix":     _pfx,
         "source":     _src_label,
         "sequences":  len(_export_df),
