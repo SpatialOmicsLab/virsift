@@ -1,9 +1,9 @@
 {
-  "_comment": "VirSift v2.1 — Traductions Françaises (stub — keys manquants utilisent l'anglais comme secours)",
+  "_comment": "VirSift v1.0 — Traductions Françaises (stub — keys manquants utilisent l'anglais comme secours)",
   "_note": "Traduction partielle couvrant les éléments d'interface les plus visibles. Les clés manquantes affichent l'anglais.",
   "app_title": "VirSift",
   "app_subtitle": "Surveillance Virologique Intelligente",
-  "app_version": "v2.1",
+  "app_version": "v1.0",
   "sidebar_language": "Langue",
   "sidebar_dataset_status": "Statut du jeu de données",
   "sidebar_active_seqs": "Séquences actives",
