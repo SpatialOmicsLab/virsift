@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080">
+<rect width="1600" height="1080" fill="#ffffff"/>
+<text x="800" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#1f2937">VirSift Logical Workflow</text>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 Z" fill="#64748b"/>
+  </marker>
+</defs>
+<g font-family="Arial, sans-serif" fill="#1f2937" stroke="#334155">
+  <rect x="120" y="170" width="350" height="150" rx="24" fill="#e0f2fe" stroke-width="3"/>
+  <text x="295" y="225" text-anchor="middle" font-size="30" font-weight="700" stroke="none">Home Page</text>
+  <text x="295" y="270" text-anchor="middle" font-size="23" stroke="none">Getting started</text>
+  <text x="295" y="300" text-anchor="middle" font-size="23" stroke="none">No active dataset</text>
+
+  <rect x="625" y="170" width="350" height="150" rx="24" fill="#fef3c7" stroke-width="3"/>
+  <text x="800" y="225" text-anchor="middle" font-size="30" font-weight="700" stroke="none">Workspace / Upload</text>
+  <text x="800" y="270" text-anchor="middle" font-size="23" stroke="none">Upload one or more</text>
+  <text x="800" y="300" text-anchor="middle" font-size="23" stroke="none">FASTA files</text>
+
+  <rect x="1130" y="170" width="350" height="150" rx="24" fill="#fde68a" stroke-width="3"/>
+  <text x="1305" y="225" text-anchor="middle" font-size="30" font-weight="700" stroke="none">Activate Dataset</text>
+  <text x="1305" y="270" text-anchor="middle" font-size="23" stroke="none">Activate selected file</text>
+  <text x="1305" y="300" text-anchor="middle" font-size="23" stroke="none">or merged dataset</text>
+
+  <rect x="535" y="425" width="530" height="175" rx="24" fill="#d1fae5" stroke-width="4"/>
+  <text x="800" y="490" text-anchor="middle" font-size="30" font-weight="700" stroke="none">Surveillance Observatory</text>
+  <text x="800" y="535" text-anchor="middle" font-size="23" stroke="none">The Home Page transforms into the</text>
+  <text x="800" y="565" text-anchor="middle" font-size="23" stroke="none">active-dataset dashboard</text>
+</g>
+<g fill="none" stroke="#64748b" stroke-width="5" marker-end="url(#arrow)">
+  <path d="M470 245 H625"/>
+  <path d="M975 245 H1130"/>
+  <path d="M1305 320 V370 H800 V425"/>
+</g>
+<g fill="none" stroke="#64748b" stroke-width="5">
+  <path d="M800 600 V690"/>
+  <path d="M180 690 H1495"/>
+</g>
+<g font-family="Arial, sans-serif" fill="#1f2937" stroke="#334155" stroke-width="2">
+  <rect x="60" y="760" width="240" height="155" rx="22" fill="#ede9fe"/>
+  <rect x="320" y="760" width="280" height="155" rx="22" fill="#ede9fe"/>
+  <rect x="620" y="760" width="280" height="155" rx="22" fill="#ede9fe"/>
+  <rect x="920" y="760" width="240" height="155" rx="22" fill="#ede9fe"/>
+  <rect x="1180" y="760" width="220" height="155" rx="22" fill="#ede9fe"/>
+  <rect x="1420" y="760" width="150" height="155" rx="22" fill="#f3f4f6"/>
+</g>
+<g font-family="Arial, sans-serif" fill="#1f2937" text-anchor="middle">
+  <text x="180" y="815" font-size="26" font-weight="700">Workspace</text>
+  <text x="180" y="855" font-size="20">Upload or switch</text><text x="180" y="882" font-size="20">datasets</text>
+
+  <text x="460" y="815" font-size="26" font-weight="700">Sequence Refinery</text>
+  <text x="460" y="855" font-size="20">Filter, deduplicate,</text><text x="460" y="882" font-size="20">and sample</text>
+
+  <text x="760" y="815" font-size="26" font-weight="700">Molecular Timeline</text>
+  <text x="760" y="855" font-size="20">Clone persistence</text><text x="760" y="882" font-size="20">analysis</text>
+
+  <text x="1040" y="815" font-size="26" font-weight="700">Analytics</text>
+  <text x="1040" y="855" font-size="20">Explore and</text><text x="1040" y="882" font-size="20">visualize</text>
+
+  <text x="1290" y="815" font-size="26" font-weight="700">Export</text>
+  <text x="1290" y="855" font-size="20">Download curated</text><text x="1290" y="882" font-size="20">results</text>
+
+  <text x="1495" y="815" font-size="25" font-weight="700">Docs</text>
+  <text x="1495" y="855" font-size="19">Help and</text><text x="1495" y="882" font-size="19">use cases</text>
+</g>
+<g fill="none" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)">
+  <path d="M180 690 V760"/>
+  <path d="M460 690 V760"/>
+  <path d="M760 690 V760"/>
+  <path d="M1040 690 V760"/>
+  <path d="M1290 690 V760"/>
+  <path d="M1495 690 V760"/>
+</g>
+<g font-family="Arial, sans-serif" fill="#1f2937" text-anchor="middle">
+  <text x="800" y="985" font-size="24">After activation, these modules can be opened in any order as needed.</text>
+  <text x="800" y="1025" font-size="24">They are connected to the currently active dataset; they are not mandatory sequential steps.</text>
+</g>
+</svg>
