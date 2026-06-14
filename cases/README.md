@@ -1,38 +1,49 @@
 # VirSift Example and Test Cases
 
 The `cases/` directory contains repository-based FASTA inputs and usage notes
-for testing upload, parsing, activation, filtering, visualization, and export.
+for demonstrating and testing VirSift workflows, including upload, parsing,
+dataset activation, filtering, deduplication, visualization, temporal analysis,
+and export.
 
-Expected repository files include:
+Included use-case files may include:
 
-- `All H3N2_20250918_070704.fasta`
-- `HA_test_copy1.fasta`
-- `RSV-B_for_filtration.fasta`
-- `usecase.md`
+* `All H3N2_20250918_070704.fasta`
+* `HA_test_copy1.fasta`
+* `RSV-B_for_filtration.fasta`
+* `usecase.md`
 
-Before publishing or redistributing a FASTA file, confirm:
+These files are provided as software use cases and test inputs. They are intended
+to help users reproduce interface behaviour, exercise parser logic, verify
+filtering and export functions, and explore example analytical workflows.
 
-- Its source and provenance
-- Whether public redistribution is permitted
-- Whether source acknowledgements or accession identifiers must be retained
-- Whether it contains sensitive or restricted metadata
-- Its expected sequence count, subtype count, segment count, and date range
+## Intended use
 
+The files in this directory may be used to:
+
+* Test single-file and multi-file upload
+* Confirm FASTA parsing and metadata extraction
+* Activate individual or merged datasets
+* Apply sequence-quality and metadata filters
+* Test exact-sequence deduplication
+* Explore the Surveillance Observatory
+* Run Molecular Timeline workflows
+* Generate Analytics visualizations
+* Test FASTA, CSV, JSON, ZIP, accession-list, and session-log exports
+
+## Important interpretation note
+
+The contents of `cases/` are software demonstration materials. They should not
+be interpreted as epidemiological case counts, incidence estimates, prevalence
+estimates, or a representative surveillance sample.
+
+Results produced from these files describe only the uploaded sequence records
+and the metadata contained in them.
+
+## Repository organization
+
+VirSift uses `cases/` as the main directory for test and demonstration inputs.
 Do not create a duplicate `examples/` directory unless it serves a clearly
-different purpose. VirSift already uses `cases/` for test and demonstration data.
+different purpose.
 
-## Mandatory provenance record
-
-Before a public release, complete this table for every FASTA file:
-
-| Filename | Source | Synthetic or accession(s) | Redistribution basis | Created/retrieved | Expected sequences | Maintainer |
-|---|---|---|---|---|---:|---|
-| `All H3N2_20250918_070704.fasta` | To verify | To verify | To verify | To verify | To verify | To assign |
-| `HA_test_copy1.fasta` | To verify | To verify | To verify | To verify | To verify | To assign |
-| `RSV-B_for_filtration.fasta` | To verify | To verify | To verify | To verify | To verify | To assign |
-
-> **Release gate:** If a file was obtained from GISAID and public
-> redistribution has not been expressly authorized, remove it from the public
-> repository and replace it with synthetic or independently redistributable test
-> data.
-
+Additional use-case instructions may be documented in `usecase.md`.
+::: 
