@@ -1,42 +1,23 @@
-# Paper-Ready Data Availability Statements
+# Data Availability
 
-Choose and adapt the version that matches the final release.
+The VirSift source code is publicly available from the [GitHub repository](https://github.com/SpatialOmicsLab/virsift) under the MIT License.
 
-## Option A — Software and independently redistributable examples
+VirSift version 1.0.0 is permanently archived on Zenodo:
 
-> The VirSift source code is publicly available from
-> https://github.com/SpatialOmicsLab/virsift under the MIT License. A versioned
-> archival release and DOI will be added through Zenodo. Demonstration FASTA
-> files included in the repository are limited to synthetic or independently
-> redistributable records, with provenance documented in `cases/README.md`.
-> GISAID-derived sequence data are not redistributed through the repository and
-> must be obtained by authorized users directly from GISAID under the applicable
-> Database Access Agreement. Public NCBI/GenBank records used in analyses should
-> be identified by accession number.
+**DOI:** [10.5281/zenodo.20699278](https://doi.org/10.5281/zenodo.20699278)
 
-## Option B — Software only; no sequence redistribution
+Example and test FASTA files included in the repository’s [`cases/`](cases/) directory are provided for software demonstration, validation, filtering, visualization, and export workflows.
 
-> The VirSift source code is publicly available from
-> https://github.com/SpatialOmicsLab/virsift under the MIT License. A versioned
-> archival release and DOI will be added through Zenodo. No GISAID-derived
-> sequence data are redistributed with the software. GISAID data used in an
-> analysis must be obtained by authorized users directly from GISAID under the
-> applicable Database Access Agreement. NCBI/GenBank records should be reported
-> by accession number and retrieved from the corresponding public database.
+Restricted GISAID-derived datasets are not distributed as part of the VirSift software archive. Users working with GISAID data must obtain the relevant records through an authorized account and comply with the applicable access, acknowledgement, and data-use requirements.
 
-## Interpretation statement for Methods or Figure Legends
+Public NCBI/GenBank records used in research should be reported using their accession numbers and retrieved from the corresponding public database.
 
-> VirSift visualizations summarize records in the analyzed sequence dataset.
-> Sequence counts were not interpreted as epidemiological case counts, and
-> results were evaluated in light of temporal, geographic, laboratory, and
-> submission-related sampling biases.
+Further information is available in:
 
-## Before manuscript submission
+* [`DATA_SOURCES_AND_COMPLIANCE.md`](DATA_SOURCES_AND_COMPLIANCE.md)
+* [`DISCLAIMER.md`](DISCLAIMER.md)
+* [`cases/README.md`](cases/README.md)
 
-- Replace the repository URL only if it changes.
-- Add the exact software version.
-- Add the Zenodo DOI.
-- Confirm whether examples are synthetic or independently redistributable.
-- List NCBI/GenBank accession numbers where applicable.
-- Follow GISAID acknowledgment and author-attribution requirements for any
-  analysis based on GISAID data.
+## Interpretation Note
+
+VirSift visualizations summarize the sequence records contained in the analyzed dataset. Sequence-record counts should not be interpreted as epidemiological case counts, incidence, prevalence, or evidence that the uploaded records are representative of a wider population.
