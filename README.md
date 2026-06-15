@@ -15,7 +15,7 @@
   <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%7C%20RU%20%7C%20FR%20%7C%20ES%20%7C%20AR%20%7C%20ZH-059669">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-7c3aed">
 <a href="https://doi.org/10.5281/zenodo.20699278">
-  <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20699278.svg"
+  <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20699278-blue"
        alt="DOI: 10.5281/zenodo.20699278">
 </a>
 </p>
