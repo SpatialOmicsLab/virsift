@@ -60,14 +60,14 @@ GitHub-compatible citation metadata are provided in [`CITATION.cff`](CITATION.cf
 
 When using VirSift in research, reports, surveillance workflows, teaching, or publications, please cite:
 
-> Alabetutu, A., Sobolev, I. A., Adeluwoye, A. O., & Shestopalov, A. M. (2026). *VirSift: A structured, multilingual, browser-based workflow for pre-phylogenetic curation and epidemiological visualization of viral sequence datasets from human and non-human animal hosts* (Version 1.0.0). https://doi.org/10.5281/zenodo.20699278
+> Alabetutu, A., Sobolev, I. A., Adeluwoye, A. O., & Shestopalov, A. M. (2026). *VirSift: Viral Sequence Intelligence and Filtering Toolkit* (Version 1.0.0). https://doi.org/10.5281/zenodo.20699278
 
 ### BibTeX
 
 ```bibtex
 @software{alabetutu_virsift_2026,
   author  = {Alabetutu, Ayanfeoluwa and Sobolev, Ivan A. and Adeluwoye, Adekunle O. and Shestopalov, Alexander M.},
-  title   = {VirSift: A Structured, Multilingual, Browser-Based Workflow for Pre-Phylogenetic Curation and Epidemiological Visualization of Viral Sequence Datasets from Human and Non-Human Animal Hosts},
+  title   = {VirSift: Viral Sequence Intelligence and Filtering Toolkit},
   year    = {2026},
   version = {1.0.0},
   doi     = {10.5281/zenodo.20699278},
