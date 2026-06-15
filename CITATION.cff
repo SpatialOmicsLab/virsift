@@ -3,7 +3,7 @@ message: "If you use VirSift in research, surveillance, teaching, or publication
 type: software
 title: "VirSift: A Structured, Multilingual, Browser-Based Workflow for Pre-Phylogenetic Curation and Epidemiological Visualization of Viral Sequence Datasets"
 version: "1.0.0"
-date-released: "2026-06-14"
+date-released: "2026-06-15"
 
 authors:
   - family-names: "Alabetutu"
