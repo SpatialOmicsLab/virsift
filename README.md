@@ -14,7 +14,7 @@
   <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-application-FF4B4B">
   <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%7C%20RU%20%7C%20FR%20%7C%20ES%20%7C%20AR%20%7C%20ZH-059669">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-7c3aed">
-  <img alt="DOI" src="https://img.shields.io/badge/DOI-pending-lightgrey">
+  <a href="https://doi.org/10.5281/zenodo.20699277"><img src="https://zenodo.org/badge/1164853204.svg" alt="DOI"></a>
 </p>
 
 <p align="center">
@@ -57,7 +57,7 @@ GitHub-compatible citation metadata are provided in [`CITATION.cff`](CITATION.cf
 
 When using VirSift in research, reports, surveillance workflows, teaching, or publications, please cite:
 
-> Alabetutu, A., Sobolev, I. A., Adeluwoye, A. O., & Shestopalov, A. M. (2026). *VirSift: A structured, multilingual, browser-based workflow for pre-phylogenetic curation and epidemiological visualization of viral sequence datasets from human and non-human animal hosts* (Version 1.0.0). DOI pending.
+> Alabetutu, A., Sobolev, I. A., Adeluwoye, A. O., & Shestopalov, A. M. (2026). *VirSift: A structured, multilingual, browser-based workflow for pre-phylogenetic curation and epidemiological visualization of viral sequence datasets from human and non-human animal hosts* (Version 1.0.0). https://doi.org/10.5281/zenodo.20699278
 
 ### BibTeX
 
@@ -67,12 +67,13 @@ When using VirSift in research, reports, surveillance workflows, teaching, or pu
   title   = {VirSift: A Structured, Multilingual, Browser-Based Workflow for Pre-Phylogenetic Curation and Epidemiological Visualization of Viral Sequence Datasets from Human and Non-Human Animal Hosts},
   year    = {2026},
   version = {1.0.0},
-  doi     = {DOI pending},
+  doi     = {10.5281/zenodo.20699278},
   url     = {https://github.com/SpatialOmicsLab/virsift}
 }
 ```
 
-After the first Zenodo archive is published, replace the pending DOI in the badge, citation, `CITATION.cff`, and BibTeX entry with the version-specific DOI.
+**Version 1.0.0 DOI:** [10.5281/zenodo.20699278](https://doi.org/10.5281/zenodo.20699278)  
+**All versions / latest release:** [10.5281/zenodo.20699277](https://doi.org/10.5281/zenodo.20699277)
 
 ---
 
