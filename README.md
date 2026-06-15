@@ -5,7 +5,7 @@
 <h1 align="center">VirSift</h1>
 
 <p align="center">
-  <strong>A structured, multilingual, browser-based workflow for pre-phylogenetic viral FASTA curation across human and non-human animal hosts</strong>
+  <strong>A structured, multilingual, browser-based workflow for pre-phylogenetic curation and epidemiological visualization of viral FASTA datasets from human and non-human animal hosts </strong>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
   <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-application-FF4B4B">
   <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%7C%20RU%20%7C%20FR%20%7C%20ES%20%7C%20AR%20%7C%20ZH-059669">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-7c3aed">
-  <a href="https://doi.org/10.5281/zenodo.20699278"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20699278.svg" alt="DOI: 10.5281/zenodo.20699278"></a>
+  <a href="https://doi.org/10.5281/zenodo.20699277"><img src="https://zenodo.org/badge/1164853204.svg" alt="DOI"></a>
 </p>
 
 <p align="center">
